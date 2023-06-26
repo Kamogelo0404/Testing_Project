@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { KamogeloComponent } from './components/kamogelo/kamogelo.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    KamogeloComponent
   ],
   imports: [
     BrowserModule,
